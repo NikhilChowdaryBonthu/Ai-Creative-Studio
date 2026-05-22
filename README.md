@@ -10,11 +10,12 @@
   - Multiple Art Styles: Cyberpunk, anime, realistic, etc.
 
   ## 📸 Examples
-     ### 🌃 Cyberpunk City
-  ![Cyberpunk City](Cyberpunk City.jpg)
+ 
+  ### 🌃 Cyberpunk City
+  ![Cyberpunk City](https://github.com/NikhilChowdaryBonthu/ai-creative-studio/blob/main/Cyberpunk%20City.jpg)
 
   ### 🤖 Robot Cafe
-  ![Robot Cafe](Robot Cafe.jpg)
+  ![Robot Cafe](https://github.com/NikhilChowdaryBonthu/ai-creative-studio/blob/main/Robot%20Cafe.jpg)
 
   ## 💻 Tech Stack
   - Python 3.10
