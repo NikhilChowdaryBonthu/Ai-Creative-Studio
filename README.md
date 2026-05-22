@@ -10,9 +10,8 @@
   - Multiple Art Styles: Cyberpunk, anime, realistic, etc.
 
   ## 📸 Examples
-  ![Cyberpunk City](first_image.png)
-  ![Robot Cafe](robot_cafe.png)
-
+  Cyberpunk City.jpg
+  Robot Cafe.jpg
   ## 💻 Tech Stack
   - Python 3.10
   - PyTorch / CUDA
