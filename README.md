@@ -5,8 +5,9 @@ A Google Colab-based text-to-image project built with Stable Diffusion. Generate
 ## Highlights
 
 - Text-to-image generation with Stable Diffusion
-- Interactive Gradio interface for prompts and generation controls
+- Interactive Gradio interface for prompts, negative prompts, and generation controls
 - Runs in Google Colab — no local setup required
+- Includes a deployable web-app entry point for Hugging Face Spaces
 - GPU-enabled image generation with PyTorch and CUDA
 - Reproducible outputs using prompt, inference-step, guidance, and seed controls
 
@@ -16,6 +17,16 @@ A Google Colab-based text-to-image project built with Stable Diffusion. Generate
 2. In Colab, select **Runtime → Change runtime type** and choose a GPU.
 3. Select **Runtime → Run all** and wait for the model to download.
 4. Use the Gradio interface to enter a prompt, adjust settings, and select **Generate**.
+
+## Deploy as a web app
+
+The repository includes `app.py`, which is ready for a Hugging Face Space.
+
+1. Create a new **Gradio** Space with a GPU runtime.
+2. Upload `app.py`, `requirements.txt`, and the contents of `huggingface-space.md` as the Space's `README.md`.
+3. The Space will install dependencies and launch the app automatically.
+
+> Stable Diffusion needs a GPU for a practical public demo. Choose hardware in Hugging Face that matches your budget and availability.
 
 ## Example generations
 
