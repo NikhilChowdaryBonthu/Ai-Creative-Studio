@@ -9,4 +9,4 @@ transformers
 accelerate
 safetensors
 pillow
-gradio
+gradio>=4.0
