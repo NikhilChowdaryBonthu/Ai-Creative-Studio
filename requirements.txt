@@ -1,0 +1,11 @@
+# Core runtime
+# Install a CUDA-compatible PyTorch build appropriate for your environment first.
+torch
+torchvision
+torchaudio
+
+diffusers
+transformers
+accelerate
+safetensors
+pillow
