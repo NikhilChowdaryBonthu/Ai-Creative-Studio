@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated artifacts and local models
+outputs/
+generated_images/
+models/
+checkpoints/
+*.ckpt
+*.safetensors
+
+# OS files
+.DS_Store
