@@ -1,12 +1,9 @@
-# Core runtime
-# Install a CUDA-compatible PyTorch build appropriate for your environment first.
-torch
-torchvision
-torchaudio
-
-diffusers
-transformers
-accelerate
-safetensors
-pillow
-gradio>=4.0
+# GPU host: install a CUDA-compatible PyTorch build for your hardware.
+# Colab notebook uses its own preinstalled PyTorch and installs the other packages.
+torch>=2.5,<3
+diffusers>=0.30,<1
+transformers>=4.44,<5
+accelerate>=0.30,<2
+safetensors>=0.4
+pillow>=10
+gradio>=5,<6
