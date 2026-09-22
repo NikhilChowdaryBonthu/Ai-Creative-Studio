@@ -1,37 +1,49 @@
+# AI Creative Studio
 
- # 🎨 AI Creative Studio
+A Google Colab-based text-to-image project built with Stable Diffusion. Generate original artwork from text prompts directly in your browser.
 
-  AI image generator using Stable Diffusion in Google Colab. Generate custom artwork from text prompts!
+## Highlights
 
-  ## 🚀 Features
-  - Text-to-Image Generation: Create images from descriptions
-  - Custom Fine-tuning: Train on your own art style
-  - Google Colab: Runs in browser, no setup needed
-  - Multiple Art Styles: Cyberpunk, anime, realistic, etc.
+- Text-to-image generation with Stable Diffusion
+- Custom fine-tuning for personal art styles
+- Runs in Google Colab — no local setup required
+- Supports creative styles such as cyberpunk, anime, and realistic imagery
 
-  ## 📸 Examples
- 
-  ### 🌃 Cyberpunk City
-  ![Cyberpunk City](https://github.com/NikhilChowdaryBonthu/ai-creative-studio/blob/main/Cyberpunk%20City.jpg)
+## Quick start
 
-  ### 🤖 Robot Cafe
-  ![Robot Cafe](https://github.com/NikhilChowdaryBonthu/ai-creative-studio/blob/main/Robot%20Cafe.jpg)
+1. Open the [Stable Diffusion Studio notebook in Google Colab](https://colab.research.google.com/github/NikhilChowdaryBonthu/Ai-Creative-Studio/blob/main/stable_diffusion_studio.ipynb).
+2. In Colab, select **Runtime → Change runtime type** and choose a GPU when one is available.
+3. Select **Runtime → Run all**.
+4. Enter a prompt and generate an image. The first run can take a few minutes while the model downloads.
 
-  ## 💻 Tech Stack
-  - Python 3.10
-  - PyTorch / CUDA
-  - Hugging Face Diffusers
-  - Gradio
-  - Google Colab
+## Example generations
 
-  ## 🎯 How to Run
-  1. Open the Colab notebook
-  2. Click Runtime → Run all
-  3. Wait 2 minutes for your first image!
+### Cyberpunk City
 
+![Cyberpunk City](https://github.com/NikhilChowdaryBonthu/Ai-Creative-Studio/blob/main/Cyberpunk%20City.jpg?raw=true)
 
-  ## 📧 Contact
-  For questions, reach out to [nikhilbonthu2@gmail.com]
+### Robot Cafe
 
-  ## 🔗 Live Demo
-  https://colab.research.google.com/github/NikhilChowdaryBonthu/ai-creative-studio
+![Robot Cafe](https://github.com/NikhilChowdaryBonthu/Ai-Creative-Studio/blob/main/Robot%20Cafe.jpg?raw=true)
+
+## Tech stack
+
+- Python 3.10
+- PyTorch and CUDA
+- Hugging Face Diffusers
+- Gradio
+- Google Colab
+
+## Notes
+
+- A GPU-backed Colab runtime is recommended for a smoother experience.
+- Download time and GPU availability may affect the first run.
+- Results depend on the prompt and model configuration.
+
+## License
+
+This project is available under the [MIT License](LICENSE).
+
+## Contact
+
+For questions, contact [nikhilbonthu2@gmail.com](mailto:nikhilbonthu2@gmail.com).
