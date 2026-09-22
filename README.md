@@ -4,7 +4,7 @@
 
 A text-to-image portfolio project using Stable Diffusion v1.5, PyTorch, Diffusers, and Gradio. It offers a self-contained Google Colab notebook and a separate GPU-hosted Gradio entry point. Prompts, negative prompts, inference steps, guidance, and seed are adjustable.
 
-**Project status:** source code and GPU-free tests are available. This repository does not currently link to a verified public live demo. A fresh GPU inference run is still needed to verify the current dependency set end to end.
+**Project status:** verified on 2026-09-22 in a Google Colab Tesla T4 runtime. The current notebook loaded the model, generated an example image, and its Gradio interface generated a second image. There is no permanent public hosted demo.
 
 ## Try it in Google Colab
 
@@ -48,7 +48,7 @@ python -m unittest discover -s tests -v
 
 [GitHub Actions](https://github.com/NikhilChowdaryBonthu/Ai-Creative-Studio/actions/workflows/quality.yml) runs these checks on pushes and pull requests. They cover input validation, generation arguments with a fake pipeline, and notebook integrity. They **do not** execute Stable Diffusion inference.
 
-For a manual GPU smoke test, run the notebook on a fresh Colab GPU, generate one image with the example prompt and seed, then confirm that the Gradio interface can generate a second image. Record the GPU type, package versions, and any failure before claiming the demo is verified.
+GPU smoke test completed on 2026-09-22 with a Tesla T4: model loading, one notebook image, and a second Gradio-generated image succeeded. Colab printed dependency warnings about unrelated preinstalled packages, but generation completed. Repeat this test after changing model or dependency versions.
 
 ## How it works
 
@@ -70,7 +70,7 @@ This repository's code is MIT-licensed. The model weights have a separate [Creat
 
 ## Next milestone
 
-Complete a fresh Colab GPU smoke test. If it succeeds, add a short screen recording or current UI screenshot and update the project status above. A live hosted demo is optional, not a prerequisite for presenting the code.
+Add a short recording or current UI screenshot after approving publication of the captured demo image. A permanent hosted demo remains optional; the temporary Gradio link created by Colab expires and depends on the runtime.
 
 ## Contact
 
