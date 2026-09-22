@@ -32,7 +32,11 @@ No model training, permanent hosting, or paid Hugging Face account is required t
 
 ## Short demo video
 
-[Watch the 28-second AI Creative Studio demo](ai-creative-studio-demo.mp4). It shows a prompt, the generation progress, and the resulting robot image in the Gradio interface. This is a recording of a Colab GPU run, not a permanent live demo.
+This 28-second recording shows a prompt, generation progress, and the resulting robot image in the Gradio interface. It is a Colab GPU run, not a permanent live demo.
+
+https://github.com/user-attachments/assets/a9b73a1e-05bd-4e09-b7d2-e487fbbda30d
+
+[Download the MP4](ai-creative-studio-demo.mp4)
 
 ## Verified demo screenshot
 
