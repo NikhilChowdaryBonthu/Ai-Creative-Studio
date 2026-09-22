@@ -30,6 +30,10 @@ No model training, permanent hosting, or paid Hugging Face account is required t
 
 **Project status:** verified on 2026-09-22 in a Google Colab Tesla T4 runtime. The current notebook loaded the model, generated an example image, and its Gradio interface generated a second image. There is no permanent public hosted demo.
 
+## Short demo video
+
+[Watch the 28-second AI Creative Studio demo](ai-creative-studio-demo.mp4). It shows a prompt, the generation progress, and the resulting robot image in the Gradio interface. This is a recording of a Colab GPU run, not a permanent live demo.
+
 ## Verified demo screenshot
 
 The Gradio interface below generated the robot-cafe image during the Colab T4 smoke test. This is a screenshot, not a permanent live demo.
@@ -102,7 +106,7 @@ This repository's code is MIT-licensed. The model weights have a separate [Creat
 
 ## Next milestone
 
-A short screen recording could make the project easier to explore, but it is optional. A permanent hosted demo is also optional; the temporary Gradio link created by Colab expires and depends on the runtime.
+A permanent hosted demo is optional; the temporary Gradio link created by Colab expires and depends on the runtime.
 
 ## Contact
 
