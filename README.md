@@ -6,6 +6,12 @@ A text-to-image portfolio project using Stable Diffusion v1.5, PyTorch, Diffuser
 
 **Project status:** verified on 2026-09-22 in a Google Colab Tesla T4 runtime. The current notebook loaded the model, generated an example image, and its Gradio interface generated a second image. There is no permanent public hosted demo.
 
+## Verified demo screenshot
+
+The Gradio interface below generated the robot-cafe image during the Colab T4 smoke test. This is a screenshot, not a permanent live demo.
+
+![AI Creative Studio Gradio interface generating a robot cafe image on a Colab T4 GPU](https://github.com/user-attachments/assets/90dc5346-5daf-4d4a-9131-ae9ebf44e465)
+
 ## Try it in Google Colab
 
 1. Open the [notebook in Colab](https://colab.research.google.com/github/NikhilChowdaryBonthu/Ai-Creative-Studio/blob/main/stable_diffusion_studio.ipynb).
@@ -31,7 +37,7 @@ The app loads the model on the first generation request and reuses it for later 
 
 ## Example images
 
-These are example assets already included in the repository, not evidence that the current revision has passed a fresh GPU run.
+These example assets are included in the repository. The screenshot above shows a separate, verified run of the current notebook.
 
 | Cyberpunk City | Robot Cafe |
 | --- | --- |
@@ -70,7 +76,7 @@ This repository's code is MIT-licensed. The model weights have a separate [Creat
 
 ## Next milestone
 
-Add a short recording or current UI screenshot after approving publication of the captured demo image. A permanent hosted demo remains optional; the temporary Gradio link created by Colab expires and depends on the runtime.
+A short screen recording could make the project easier to explore, but it is optional. A permanent hosted demo is also optional; the temporary Gradio link created by Colab expires and depends on the runtime.
 
 ## Contact
 
