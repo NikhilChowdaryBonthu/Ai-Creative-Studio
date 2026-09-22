@@ -12,6 +12,8 @@ The Gradio interface below generated the robot-cafe image during the Colab T4 sm
 
 ![AI Creative Studio Gradio interface generating a robot cafe image on a Colab T4 GPU](https://github.com/user-attachments/assets/90dc5346-5daf-4d4a-9131-ae9ebf44e465)
 
+[Open full-size screenshot](https://github.com/user-attachments/assets/90dc5346-5daf-4d4a-9131-ae9ebf44e465)
+
 ## Try it in Google Colab
 
 1. Open the [notebook in Colab](https://colab.research.google.com/github/NikhilChowdaryBonthu/Ai-Creative-Studio/blob/main/stable_diffusion_studio.ipynb).
