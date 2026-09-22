@@ -2,7 +2,31 @@
 
 [![Quality checks](https://github.com/NikhilChowdaryBonthu/Ai-Creative-Studio/actions/workflows/quality.yml/badge.svg)](https://github.com/NikhilChowdaryBonthu/Ai-Creative-Studio/actions/workflows/quality.yml)
 
-A text-to-image portfolio project using Stable Diffusion v1.5, PyTorch, Diffusers, and Gradio. It offers a self-contained Google Colab notebook and a separate GPU-hosted Gradio entry point. Prompts, negative prompts, inference steps, guidance, and seed are adjustable.
+AI Creative Studio turns a written description into an image using the pretrained Stable Diffusion v1.5 model. The goal is to demonstrate a usable, reproducible generative-AI workflow—not to claim that a new model was trained. You can run the self-contained Google Colab notebook or launch the separate Gradio app on a CUDA GPU.
+
+## What the project does
+
+- Generates an image from a text prompt and displays it in an interactive interface.
+- Accepts an optional negative prompt to describe things to avoid in the output.
+- Lets you adjust inference steps, guidance scale, and seed, with example prompts to get started.
+- Validates the inputs and gives a clear error when a CUDA GPU is unavailable.
+
+## How image generation works
+
+1. Start the notebook on a Colab GPU, or launch `app.py` on a CUDA-capable machine.
+2. Enter a prompt and optionally adjust the negative prompt, steps, guidance, and seed.
+3. The app validates the settings, loads the pretrained model, and runs inference with PyTorch and Diffusers. The standalone app loads the model on its first generation request and reuses it afterward.
+4. Gradio displays the generated image. You can save the result if you want to keep it.
+
+No model training, permanent hosting, or paid Hugging Face account is required to run the Colab workflow. Colab GPU availability is not guaranteed.
+
+## Tech stack
+
+- **Python and PyTorch:** application logic and CUDA GPU inference.
+- **Stable Diffusion v1.5 and Hugging Face Diffusers:** pretrained text-to-image model and inference pipeline.
+- **Gradio:** interactive prompt controls and image display.
+- **Google Colab:** notebook-based GPU workflow.
+- **unittest and GitHub Actions:** GPU-free tests and automated quality checks.
 
 **Project status:** verified on 2026-09-22 in a Google Colab Tesla T4 runtime. The current notebook loaded the model, generated an example image, and its Gradio interface generated a second image. There is no permanent public hosted demo.
 
@@ -58,7 +82,7 @@ python -m unittest discover -s tests -v
 
 GPU smoke test completed on 2026-09-22 with a Tesla T4: model loading, one notebook image, and a second Gradio-generated image succeeded. Colab printed dependency warnings about unrelated preinstalled packages, but generation completed. Repeat this test after changing model or dependency versions.
 
-## How it works
+## Project files
 
 - `stable_diffusion_studio.ipynb`: standalone Colab workflow with a single-image example and an interactive panel.
 - `app.py`: GPU-backed Gradio web app that loads the model lazily.
